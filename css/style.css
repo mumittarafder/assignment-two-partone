@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.container{
+    background: #4a4848;
+    color: white;
+    width: 80%;
+    margin: 40px auto;
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    padding: 13px;
+}
+
+.logo{}
+.logo img{
+    width: 25%;
+    display: block;
+    float: left;
+    height: 100px;
+}
+
+nav{
+    width: 74%;
+    display: block;
+    float: left;
+    text-align: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 16px;
+}
+nav ul li a{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li.action a{
+    border-bottom: 2px solid #bc5353;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid #bc5353;
+}
+
+.main-content{
+    width: 100%;
+    overflow: hidden;
+    padding: 40px;
+}
+.main-content img{
+    width: 35%;
+    display: block;
+    float: left;
+    margin-right: 50px;
+}
+.main-content p{
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: start;
+    font-size: 26px;
+}
+.main-content table{
+    text-align: left;
+}
+
+.p{
+
+}
+
+.p b{
+    font-size: 38px;
+}
+
+.p p{}
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    background: #bc5353;
+    padding: 0px;
+}
+
+.social{}
+.social ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social ul li a{
+    height: 57px;
+    display: block;
+    width: 192px;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000000;
+}
